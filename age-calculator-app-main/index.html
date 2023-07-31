@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/queries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Inter:wght@400;500;700&family=PT+Serif:ital@1&family=Poppins:ital,wght@0,700;1,400;1,800&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <section class="section-inputs">
+      <div class="input">
+        <label for="" class="text">DAY</label>
+        <input class="input-box" type="number" placeholder="DD">
+        <p class="error off">This field is required</p>
+        <p class="error1 off">Must be a valid day</p>
+      </div>
+      <div class="input">
+        <label for="" class="text">MONTH</label>
+        <input class="input-box" type="number" placeholder="MM">
+        <p class="error off">This field is required</p>
+        <p class="error1 off">must be a valid month</p>
+      </div>
+      <div class="input ">
+        <label for="" class="text">YEAR</label>
+        <input type="number" class="input-box" placeholder="YYYY">
+        <p class="error off">This field is required</p>
+        <p class="error1 off">must be a valid year</p>
+      </div>
+      <button class="button"><span class="btn"><ion-icon name="arrow-down-circle-outline"></ion-icon></span></button>
+    </section>
+
+    <section class="section-information">
+      <div class="year-info">
+        <p class="info"><span class="number year">--</span>years</p>
+      </div>
+      <div class="month-info">
+        <p class="info"><span class="number month">--</span>months</p>
+      </div>
+      <div class="day-info">
+        <p class="info"><span class="number day">--</span>days</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
